@@ -1,0 +1,12 @@
+<div (click)="onClick()">
+  <video #video [src]="videoSource" muted>
+
+  </video>
+  <div class="animated" *ngIf="isStarted">
+    <app-letter
+      *ngFor="let letter of Phrase; let ind = index"
+      [letter]="letter"
+      [indexOfString]="ind"
+    ></app-letter>
+  </div>
+</div>

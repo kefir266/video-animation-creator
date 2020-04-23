@@ -1,0 +1,8 @@
+.animated {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 40%;
+  font-size: 32px;
+  font-style: normal;
+}
